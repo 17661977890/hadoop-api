@@ -133,6 +133,23 @@
     		Bytes Written=64
     ====>Finished：  true
     
+    # 成功之后，用命令测试输出文件
+    [root@sun hadoop]# hdfs dfs -ls /usr/local/output12
+    Found 2 items
+    -rw-r--r--   1 root supergroup          0 2019-07-18 10:57 /usr/local/output12/_SUCCESS
+    -rw-r--r--   1 root supergroup         64 2019-07-18 10:57 /usr/local/output12/part-r-00000
+    [root@sun hadoop]# hdfs dfs cat /usr/local/output12/*
+    cat: Unknown command
+    Did you mean -cat?  This command begins with a dash.
+    [root@sun hadoop]# hdfs dfs -cat /usr/local/output12/*
+    2001	12
+    2007	12
+    2008	14
+    2010	16
+    2012	12
+    2013	23
+    2014	10
+    2015	49
     
     # 按说打jar包时候配置了主类，这里的部署命令就不用加主类，但是不加就会报错，不写全路径也会报错。
     [root@sun hadoop]# hadoop jar /home/admin/hadoop-api.jar
