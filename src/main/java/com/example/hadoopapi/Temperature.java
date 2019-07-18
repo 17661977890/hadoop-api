@@ -77,7 +77,7 @@ public class Temperature {
         //输入路径
         String dst="hdfs://192.168.2.31:9000/usr/local/input/123.txt";
         //输出路径，必须是不存在的，空文件加也不行。
-        String dstOut="hdfs://192.168.2.31:9000/usr/local/output14";
+        String dstOut="hdfs://192.168.2.31:9000/usr/local/output16";
         Configuration hadoopConfig = new Configuration();
         // Configuration 类: 读取hadoop的配置文件，如 site-core.xml...;
         //也可以用set方法重新设置(会覆盖): conf.set("fs.defaultFS","hdfs://ip:9000")
