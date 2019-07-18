@@ -32,6 +32,7 @@ public class Temperature {
         @Override
         public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             // 打印样本: Before Mapper: 0, 2000010115
+            //StringTokenizer 工具类，自动识别特殊字符，如空格 制表符 回车等 然后按行显示
             StringTokenizer itr = new StringTokenizer(value.toString());
             while (itr.hasMoreTokens()){
                 System.out.println("Before Mapper: " + key + ", " + itr.nextToken());
