@@ -37,7 +37,7 @@
     
     代码main方法的输入路径和输出路径需要注意 换成自己的ip 以及 文件位置，输出路径必须是不存在的文件（空的也不行）
 
-* （3）项目打包,idea打包，记得配置主类
+* （3）项目打包,idea打包，记得配置主类,步骤按照一下图片操作：
     
     ![image](https://github.com/17661977890/hadoop-api/blob/master/src/main/resources/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190718114114.png)
     
