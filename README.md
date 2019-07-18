@@ -1,6 +1,6 @@
 # hadoop--> hdfs api and mapReduce
 
-## hadoop 的java的相关文件操作api (在 hadoop-start项目都通过后,这边可以简单测试)
+## hadoop---> HDFS(分布式文件系统)        java的相关文件操作api (在 hadoop-start项目都通过后,这边可以简单测试)   
 
 * 一开始遇到各种报错,大致如下: 
 
@@ -23,7 +23,7 @@
 ![image](https://github.com/17661977890/hadoop-api/blob/master/src/main/resources/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190717160125.png)
 
 
-## hadoop mapReduce 数据计算
+## hadoop-----> MapReduce （分布式计算框架）   数据计算
 
 * Temperature 类为主类，内含两个静态处理类，即mapReduce的两个数据处理组件 map 和 reduce
 * 参考连接： https://github.com/17661977890/interview-docs/blob/master/docs/hadoop/hadoop04.md
