@@ -39,19 +39,19 @@
 
 * （3）项目打包,idea打包，记得配置主类
     
-    ![image]()
+    ![image](https://github.com/17661977890/hadoop-api/blob/master/src/main/resources/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190718114114.png)
     
-    ![image]()
+    ![image](https://github.com/17661977890/hadoop-api/blob/master/src/main/resources/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190718114328.png)
     
-    ![image]()
+    ![image](https://github.com/17661977890/hadoop-api/blob/master/src/main/resources/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190718114333.png)
 
-    ![image]()
+    ![image](https://github.com/17661977890/hadoop-api/blob/master/src/main/resources/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190718114430.png)
     
-    ![image]()
+    ![image](https://github.com/17661977890/hadoop-api/blob/master/src/main/resources/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190718114434.png)
     
     * 打包成功后，找到自己的jar包位置，拷贝到你得虚拟机的某个位置，然后执行部署命令
     
-    ![image]()
+    ![image](https://github.com/17661977890/hadoop-api/blob/master/src/main/resources/image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190718114506.png)
  
 * (4) 将打包生成的jar包放入hadoop集群中运行，hadoop一般会有多个节点，一个namenode节点和多个datanode节点，这里只需要把jar放入namenode中，并使用相应的hadoop命令即可.
     ```bash
