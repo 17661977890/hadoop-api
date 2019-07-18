@@ -1,4 +1,4 @@
-# hadoop--> hdfs api and mapReduce
+# hadoop--> 两大核心： HDFS and MapReduce
 
 ## hadoop---> HDFS(分布式文件系统)        java的相关文件操作api (在 hadoop-start项目都通过后,这边可以简单测试)   
 
