@@ -47,16 +47,16 @@ public class FileSystemApi {
      * @throws IOException
      * @throws InterruptedException
      */
-    public static void main(String[] args) throws IOException, InterruptedException {
-//      mkdirs("/usr/local/input");
-//      putFile("C:\\Users\\彬\\Desktop\\接口.doc", "/usr/local/input");
-//      down("/usr/local/input/接口.doc", "C:\\Users\\彬\\Desktop", false);
-//      delete("/usr/local/apifiledist", true);
-//     listStatus("/usr/local");
-//      rename("/usr/local/api2/111.txt", "/usr/local/api2/222.txt");
-//      write("/usr/local/f1", "DDDDDDDDDDDDDDDDDDDDDDDDDDDDD");
-//      open("/usr/local/api2/222.txt");
-    }
+//    public static void main(String[] args) throws IOException, InterruptedException {
+////      mkdirs("/usr/local/input");
+//      putFile("C:\\Users\\彬\\Desktop\\123.txt", "/usr/local/input");
+////      down("/usr/local/input/接口.doc", "C:\\Users\\彬\\Desktop", false);
+////      delete("/usr/local/apifiledist", true);
+////     listStatus("/usr/local");
+////      rename("/usr/local/api2/111.txt", "/usr/local/api2/222.txt");
+////      write("/usr/local/f1", "DDDDDDDDDDDDDDDDDDDDDDDDDDDDD");
+////      open("/usr/local/api2/222.txt");
+//    }
     
     /**
      * 创建文件夹
